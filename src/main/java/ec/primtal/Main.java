@@ -22,7 +22,7 @@ public class Main {
 
     }
 
-    //<<<<MED UTAN
+    //<<<<UTAN MULTITHREAD
     public static List < Integer > antalPrimTal(int startingNumber, int endingNumber) {
         return IntStream
                 .rangeClosed(startingNumber, endingNumber)
