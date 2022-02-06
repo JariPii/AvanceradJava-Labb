@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 public class Main {
     public static void main(String[] args) {
 
-        //<<<<MED MULTITHREAD (PARALLEL)
+        //<<<<UTAN MULTITHREAD
         Long start = System.currentTimeMillis();
         System.out.println("\nAntal prim nummer mellan 2 och 500000:\n" + antalPrimTal(2, 500000).stream().count());
         Long end = System.currentTimeMillis();
@@ -22,7 +22,7 @@ public class Main {
 
     }
 
-    //<<<<MED MULTITHREAD (PARALLEL)
+    //<<<<MED UTAN
     public static List < Integer > antalPrimTal(int startingNumber, int endingNumber) {
         return IntStream
                 .rangeClosed(startingNumber, endingNumber)
